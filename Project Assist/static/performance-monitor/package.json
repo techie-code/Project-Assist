@@ -1,0 +1,48 @@
+{
+  "name": "jira-project-page-custom-ui-static",
+  "version": "0.1.5",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@atlaskit/avatar": "^21.1.0",
+    "@atlaskit/badge": "^15.0.20",
+    "@atlaskit/button": "^16.3.9",
+    "@atlaskit/css-reset": "^6.0.1",
+    "@atlaskit/dynamic-table": "^14.8.3",
+    "@atlaskit/form": "^8.6.0",
+    "@atlaskit/icon": "^21.11.0",
+    "@atlaskit/modal-dialog": "^12.4.0",
+    "@atlaskit/progress-bar": "^0.5.11",
+    "@atlaskit/radio": "^5.4.1",
+    "@atlaskit/table-tree": "^9.2.1",
+    "@atlaskit/textfield": "^5.3.0",
+    "@atlaskit/theme": "^12.2.1",
+    "@atlaskit/tokens": "^0.10.24",
+    "@forge/api": "^2.7.0",
+    "@forge/bridge": "^2.4.0",
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
