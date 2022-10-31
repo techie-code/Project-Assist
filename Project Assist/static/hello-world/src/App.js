@@ -62,7 +62,7 @@ const consoleurl = async () => {
   const projectmember=JSON.stringify(context.accountId);
   const projectmessage=JSON.stringify(formState.message);
   let projectstatus = 'pending';
-  //org-------------------------
+  
  var bodyData = `{ "fields": {"customfield_10053": ${teamdetailstring}, "customfield_10052": ${projectmessage},  "customfield_10054": ${projectmember}, "customfield_10055": "Pending"}}`;
   console.log(formState.teamdetails);
   const requesturl=await requestJira(`/rest/api/3/issue/${issueID}`,{
